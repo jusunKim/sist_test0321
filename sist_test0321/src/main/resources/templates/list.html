@@ -21,6 +21,7 @@
 			<td th:text="${g.price}"></td>
 			<td th:text="${g.qty}"></td>
 			<td th:text="${g.fname}"></td>
+			<td><img th:src="@{'/image/'+"${g.fname}"}"/></td>
 		</tr>
 	</table>
 </body>
